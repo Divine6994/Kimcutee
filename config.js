@@ -13,20 +13,20 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~AFoj0T7Y#u2NtEHeVm_gEReVEniGAW1qz2e8o12q7QHUP-zk_zsE",  // Your bot's session ID (keep it secure)
     
-    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || "!",  // Command prefix (e.g., "., / ! * - +")
     
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DIVINE-MD",  // Bot's display name
     
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2347015996525",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Divine",           // Owner's name
     
-    DEV: process.env.DEV || "50948336180",                     // Developer's contact number
+    DEV: process.env.DEV || "2347015996525",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
@@ -74,15 +74,15 @@ module.exports = {
    
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // VIEW to status updates?
-    AUTO_BIO: process.env.AUTO_BIO || "false",
+    AUTO_BIO: process.env.AUTO_BIO || "true",
     
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
     
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 };
