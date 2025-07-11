@@ -13,9 +13,9 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~8Zw3jCbC#hVl9nXKRdRcLqhzoriBaulenbiFFe6lg-z3yrGB1Djk",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~wdoSyZYY#ADhGywFXikJkvTkM1YPpufft1mpitGhYSsN8jsK8VUc",  // Your bot's session ID (keep it secure)
     
-    PREFIX: getConfig("PREFIX") || "!",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DIVINE-MD",  // Bot's display name
     
